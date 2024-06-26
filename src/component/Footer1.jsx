@@ -9,7 +9,7 @@ const Footer1 = () => {
                     <div className="sb_footer-links">
 
                         <div className="sb_footer-links_div">
-                            <h4>Quick Links</h4>
+                            <h5>Quick Links</h5>
                             <hr />
                             <a className="link" href="/home">
                                 <p className="para">Home</p>
@@ -25,7 +25,7 @@ const Footer1 = () => {
                             </a>
                         </div>
                         <div className="sb_footer-links_div">
-                            <h4>For business</h4>
+                            <h5>For business</h5>
                             <hr />
                             <a className="link" href="/employee">
                                 <p className="para">Employee</p>
@@ -35,7 +35,7 @@ const Footer1 = () => {
                             </a>
                         </div>
                         <div className="sb_footer-links_div">
-                            <h4>Social Media</h4>
+                            <h5>Social Media</h5>
                             <hr />
                             <div className="socialmedia">
                                 <div className="social">
@@ -43,7 +43,7 @@ const Footer1 = () => {
                                 </div>
                                 <div className="social">
 
-                                    <box-icon className="social" type='logo' name='twitter'></box-icon>
+                                    <box-icon type='logo' name='twitter'></box-icon>
                                 </div>
                                 <div className="social">
 
