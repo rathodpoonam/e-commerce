@@ -1,0 +1,18 @@
+/* carousel.css */
+.mobile-img {
+    display: none;
+  }
+  
+  .desktop-img {
+    display: block;
+  }
+  
+  @media (max-width: 409px) {
+    .mobile-img {
+      display: block;
+    }
+    .desktop-img {
+      display: none;
+    }
+  }
+  
