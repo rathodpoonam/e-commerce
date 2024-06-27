@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 
-const Navigation1 = () => {
+const Navigation1 = ({cartcount,likecount}) => {
     const [showSearch, setShowSearch] = useState(false);
     const [offcanvasExpanded, setOffcanvasExpanded] = useState(false);
 
@@ -80,7 +80,9 @@ const Navigation1 = () => {
                                 </button>
                                 <Link to='/login' className="icons"><box-icon name='user'></box-icon></Link>
                                 <Link to='/liked' className="icons"><box-icon name='heart'></box-icon></Link>
-                                <Link to='/cart' className="icons"><box-icon name='cart'></box-icon></Link>
+                                <Link to='/cart' className="icons"><box-icon name='cart'></box-icon>
+                                    <div className="nav-cart-count">{cartcount}</div>
+                                </Link>
                             </section>
                         </Offcanvas.Body>
                     </Navbar.Offcanvas>
